@@ -39,6 +39,7 @@ class ExpressPurchaseRequest extends BasePurchaseRequest
             "currency"          => $this->getCurrency(),
             "body"              => $this->getBody(),
             "show_url"          => $this->getShowUrl(),
+            "it_b_pay"          => $this->getItBPay(),
             "anti_phishing_key" => $this->getAntiPhishingKey(),
             "exter_invoke_ip"   => $this->getExterInvokeIp(),
             "paymethod"         => $this->getPayMethod(),
